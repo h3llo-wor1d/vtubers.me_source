@@ -1,0 +1,33 @@
+{
+  "name": "sociallydev/spaces-api",
+  "description": "Library for accessing Digital Ocean spaces",
+  "version":"3.6.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Devang Srivastava",
+      "email": "hey@devang.dev",
+      "homepage": "https://devang.dev"
+    },
+    {
+      "name": "David Wakelin",
+      "email": "helllo@davidwakelin.co.uk",
+      "homepage": "https://davidwakelin.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SpacesAPI\\": "SpacesAPI"
+    }
+  },
+  "require": {
+    "php": ">=7.3",
+    "aws/aws-sdk-php": "^3.52"
+  },
+  "require-dev": {
+    "clean/phpdoc-md": "^0.19.1",
+    "phpunit/phpunit": "^9.5.13",
+    "vlucas/phpdotenv": "^v5.4.1"
+  }
+}
